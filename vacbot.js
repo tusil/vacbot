@@ -1,19 +1,20 @@
-// JavaScript Document
-var vacbot_messages = [];
-
-var vacbot_last_ember = 0;
-
-var vacbot_message_regexp = /v([a]+)c/i       
-
-var vacbot_last_oddshot = 0;
-
-var vacbot_time_limit = 15;
-
+// CONFIG
+// how many messages
 var vacbot_count_limit = 100;
 
+// per x seconds
+var vacbot_time_limit = 15;
+
+// disable checking for x seconds after oddshot window is opened (we dont want to have 3 opened oddshots if people are spamming VAC for 45sec)
 var vacbot_oddshot_limit = 50;
 
-var vacbot_oddshot_delay = 10;
+// message regexp - vac, VAC, VAAAAAAAAAAAAC, VVVVAAAAAACCCCCC
+var vacbot_message_regexp = /v([a]+)c/i       
+
+// do not edit things below
+var vacbot_messages = [];
+var vacbot_last_ember = 0;
+var vacbot_last_oddshot = 0;
 
 function vacbot_getLastMessages()
 {
