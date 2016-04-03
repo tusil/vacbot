@@ -1,0 +1,19 @@
+{
+  "name": "vacbot",
+  "version": "0.2.0",
+  "description": "Capture parts of twitch streams when chat peaks on defined words",
+  "main": "vacbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusil/vacbot.git"
+  },
+  "author": "Stepan Ulver @ Youngmedia s.r.o.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusil/vacbot/issues"
+  },
+  "homepage": "https://github.com/tusil/vacbot"
+}
